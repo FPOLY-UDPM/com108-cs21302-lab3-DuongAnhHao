@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Dương Anh Hào]
+ * MSSV:      [PS44395]
+ * Lớp:       [CS21302]
  *****************************************************************************/
 
 //  BÀI 3: XÂY DỰNG CHƯƠNG TRÌNH TÍNH TIỀN ĐIỆN 
@@ -10,14 +10,20 @@
  
 #include <stdio.h>
 
-int main(){
-    
+int main() {
     // Khai báo biến
-
+    int soDien;
+    int tienDien;
 
     // Nhập dữ liệu
+    printf("Nhap so dien tieu thu: ");
+    scanf("%d", &soDien);
 
+    // Xử lý, tính toán
+    tienDien = soDien * 3000;
 
-    // Xử lý, tính toán VÀ Hiển thị kết quả
+    // Hiển thị kết quả
+    printf("So tien dien phai dong: %d VND\n", tienDien);
 
+    return 0;
 }
